@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+} /*ustawienia dla wszystkich elementów projektu*/
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgb(46, 216, 117) 0%,
+    rgb(224, 151, 15) 50%,
+    rgb(196, 26, 69) 100%
+  );
+}/*ustawienia dla ciala projektu*/
+
+.app-css {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 700px;
+  min-height: 500px;
+  background: #070d27;
+  text-align: center;
+  margin: 90px auto;
+  padding-bottom: 27px;
+}/*ustawienia dla klasy .app-css*/
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}/*ustawienia dla marginesu h1*/
+
+h3{
+  margin: 0px 0px 10px 0px;
+  color: #fff;
+  font-size: 18px;
+}/*ustawienia dla marginesu h3*/
+
+.b-form {
+  margin-bottom: 32px;
+} /*ustawienia dla wprowadzania i przycisku*/
+
+.b-input {
+  padding: 14px 32px 14px 16px;
+  border: 2px solid #224b1e;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+} /*ustawienia dla wprowadzania*/
+
+.b-button {
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #224b1e;
+  color: #fff;
+} /*ustawienia przycisku wprowadzania*/
+
+.b-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background-color: rgb(60, 182, 23);
+  padding: 16px;
+  border-radius: 13px;
+  width: 80%;
+} /*ustawiania dla kolejnych elemntów listy*/
+
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}/*ustawienia dla klasy icons*/
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}/*ustawienia dla przycisku usun*/
+
+.edit-icon {
+  color: #fff;
+}/*ustawienia dla przycisku edytuj*/
